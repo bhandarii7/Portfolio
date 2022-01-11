@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  /* background-color: #0c0d0f; */
+  /* height: 100vh; */
+}
+
+.routes{
+  height: max-content;
+}
+
+
+

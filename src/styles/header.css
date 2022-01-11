@@ -1,0 +1,49 @@
+*{
+    color: #bcc0c4;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    margin: 0 2rem;
+}
+
+h1{
+    color: white;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+ button{
+    border: none;
+    font-size: medium;
+    padding: 0.5rem 1rem ;
+    border-radius: 40px;
+    background-color: #191b1f;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    background-color: #393b40;
+}
+
+.resume{
+    background-color: #DF2029;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+.resume:hover{
+    background-color: #c40014;
+    /* opacity: 0.8; */
+}

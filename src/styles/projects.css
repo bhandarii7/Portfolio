@@ -1,0 +1,39 @@
+* {
+  color: white;
+}
+
+.Projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* column-gap: 10em; */
+  margin: 2rem;
+}
+
+p{
+  font-size: small;
+}
+
+p>ul{
+  list-style: none;
+}
+
+.badge {
+  font-size: x-small;
+  font-style: normal;
+  background-color: #3f3f3f;
+  padding: 3px 6px;
+  border-radius: 7px;
+  line-height: 2rem;
+}
+
+.project-list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+
+a{
+  text-decoration: none;
+}
