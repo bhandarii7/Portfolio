@@ -7,16 +7,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   column-gap: 2rem;
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
 }
 
 .title span {
   color: #df2029;
-}
-
-img {
-  height: 35vmax;
-  border-radius: 30px;
+  font-size: 1.5vw;
 }
 
 .basic-info {
@@ -61,4 +57,11 @@ li:last-child {
   display: flex;
   justify-content: center;
   column-gap: 1.5rem;
+}
+
+
+img {
+  height: 35vw;
+  min-height: 100px;
+  border-radius: 30px;
 }

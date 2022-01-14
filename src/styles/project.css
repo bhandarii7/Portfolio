@@ -1,5 +1,5 @@
 .Project{
-    width: 35rem;
+    width: 38rem;
    text-align: left;
     background-color: #191b1f;
     padding: 0.5rem;
@@ -9,11 +9,16 @@
 h3{
     display: flex;
     justify-content: space-between;
+    font-size: 1.2vw;
 }
 
 h3 span{
     color: #acafb3;
-    font-size: small;
+    font-size: 0.9vw;
+}
+
+p{
+    padding: 0.2rem;
 }
 
 .languages{
@@ -24,7 +29,7 @@ h3 span{
 
 .languages >i {
     display: block;
-    font-size: x-small;
+    font-size: 0.7vw;
     font-style: normal;
     background-color: transparent;
     padding: 3px 6px;

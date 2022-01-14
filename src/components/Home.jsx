@@ -14,19 +14,17 @@ function Home() {
           <br />
           <ul className="detailed-info">
             <li>
-              I'm a second year Infromation Technology student pursuing my btech 
+              I'm a second year Information Technology student pursuing my B.Tech 
               <br />from Jaypee Institute Of Information Technology, Noida.
             </li>
             <br />
             <li>
               I enjoy building awesome softwares that solve practical problems,
-              <br /> that why I often participant in Hackathons.
+              <br /> that's why I often participant in Hackathons.
             </li>
             <br />
             <li>
-              When I am not coding, I like to spend my time playing guitar or
-              <br />
-              brainstorming with friends.
+            If you think I can help you with anything, want me to join your project team <br />or just want to say hi, you can reach out to me at:
             </li>
             <br />
             <li>

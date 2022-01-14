@@ -1,0 +1,22 @@
+.About{
+  margin: 0 20rem;
+    text-align: left;
+}
+
+section>h1{
+    font-size: 1.6vw;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li p{
+    font-size: 1.3vw;
+}
+
+.accent{
+    font-size: 1.3rem;
+    color:#df2029 ;
+}
+

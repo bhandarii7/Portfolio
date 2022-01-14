@@ -11,14 +11,14 @@ function Header() {
         <Link to={"/"}>
           <button>Home</button>
         </Link>
-        <Link to={"/projects"}>
-          <button>projects</button>
+        <Link to={"about"}>
+          <button>About</button>
         </Link>
-        <Link to={"achievements"}>
-          <button>achievements</button>
+        <Link to={"/projects"}>
+          <button>Projects</button>
         </Link>
         <a download='Resume' href={resume}>
-        <button  className="resume" >resume</button>
+        <button  className="resume" >Resume</button>
         </a>
       </div>
     </nav>
