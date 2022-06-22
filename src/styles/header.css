@@ -17,10 +17,6 @@ h1{
     font-size: 1.5vw;
 }
 
-h1:hover{
-    color: salmon;
-}
-
 .btns{
     display: flex;
     flex-direction: row;

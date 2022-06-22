@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/header.css";
-import { Route, Routes, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 import resume from '../assets/Yash_Resume.pdf'
 
 function Header() {

@@ -6,7 +6,7 @@ function About() {
     <div className="About">
       <Fade>
       <section>
-        <h1>Hey there, I’m Yash 👋</h1>
+        <h1>Hey there, I'm Yash 👋</h1>
         <br />
         <ul>
           <li>
@@ -28,15 +28,28 @@ function About() {
           <li>
             <p>
 
-            Currently, I am trying my hands on React Native and Kubernetes.
+            Currently, I am trying my hands on React Native.
             </p>
           </li>
           <br />
           <li>
             <p>
 
-            Came Top 5 out of 90 teams at BITBOX’21 Hackathon conducted by
+            Came Top 5 out of 90 teams at BITBOX'21 Hackathon conducted by
             DSC-JIIT128.
+            </p>
+          </li>
+          <br />
+          <li>
+            <p>
+            Shortlisted for IBM Reimagine Hackathon out of 900 teams
+            </p>
+          </li>
+          <br />
+          <li>
+            <p>
+
+            Volunteered at IEEE student branch and conducted workshop of web development and mentored my juniors
             </p>
           </li>
           <br />

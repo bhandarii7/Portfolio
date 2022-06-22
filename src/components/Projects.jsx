@@ -17,7 +17,7 @@ function projects() {
           <li>
             Here are my most frequently used technologies <br /> <br /> &#123;
             <i className="badge">JavaScript</i> ,<i className="badge">C++</i> ,
-            <i className="badge">HTML</i> ,<i className="badge">Sass</i> ,
+            <i className="badge">HTML</i> ,<i className="badge">SQL</i> ,
             <i className="badge">Firebase</i> ,<i className="badge">React</i> ,
             <i className="badge">NodeJs</i> ,<i className="badge">MaterialUI</i>
             &#125;
@@ -32,55 +32,45 @@ function projects() {
         <br />
         <div className="project-list">
           <Fade bottom>
+            <a target='_blank' href="https://github.com/bhandarii7/epistle-client">
+              <Project
+                heading={"EPISTLE"}
+                desc={
+                  "Epistle is a note taking app built using MERN stack. User can perform CRUD operations and provide secure user authentication using JWT."
+                }
+                date={'28 Feb 2022'}
+                lang={['MERN','MaterialUI']}
+              />
+            </a>
+          </Fade>
+
+          <Fade delay={500} bottom>
+            <a target='_blank' href="https://github.com/bhandarii7/spotify-clone">
+              <Project
+                heading={"UNIFIED-ID"}
+                desc={
+                  "Unified-id is a blockchain platform where E-KYC is done once and stored on a blockchain, and all member banks can use this data for KYC."
+                }
+                date={'3 Feb 2022'}
+                lang={['IPFS','Blockchain','Moralis']}
+              />
+            </a>
+          </Fade>
+
+          <Fade delay={1000} bottom>
             <a target='_blank'  href="https://github.com/bhandarii7/Weather-app">
               <Project
                 heading={"Weather App"}
                 desc={
                   "weather web app made using html, CSS , JavaScript  with beautiful UI showing hourly and weekly weather information."
                 }
-                date={'5 Mar'}
-                lang={['HTML','CSS','javascript']}
+                date={'21 June 2021'}
+                lang={['HTML','CSS','JavaScript']}
               />
             </a>
           </Fade>
 
-          <Fade delay={500} bottom>
-            <a target='_blank' href="#">
-              <Project
-                heading={"Portfolio website"}
-                desc={
-                  "Designed by portfolio website using React and implemented routing also used reveal Library to add cool animations."
-                }
-                date={'5 Mar'}
-                lang={['HTML','CSS','javascript','React','React Reveal']}
-              />
-            </a>
-          </Fade>
 
-          <Fade delay={1000} bottom>
-            <a target='_blank' href="https://github.com/bhandarii7/spotify-clone">
-              <Project
-                heading={"Spotify Clone"}
-                desc={
-                  "Used Spotify APIS to Authenticate and fetch users data, designed the whole UI."
-                }
-                date={'5 Mar'}
-                lang={['HTML','CSS','javascript','MaterialUI']}
-              />
-            </a>
-          </Fade>
-          <Fade delay={1500} bottom>
-            <a target='_blank' href="https://github.com/bhandarii7/recipe-app">
-              <Project
-                heading={"Recipe App"}
-                desc={
-                  "A site that provides wide variety of recipes with a click on a button. takes multiple ingredients as arguments and provides the best recipe according to your need."  
-                }
-                date={'5 Mar'}
-                lang={['HTML','CSS','javascript','React','Bootstrap']}
-              />
-            </a>
-          </Fade>
         </div>
       </aside>
     </div>

@@ -14,7 +14,7 @@ function Home() {
           <br />
           <ul className="detailed-info">
             <li>
-              I'm a second year Information Technology student pursuing my B.Tech 
+              I'm a Third year Information Technology student pursuing my B.Tech 
               <br />from Jaypee Institute Of Information Technology, Noida.
             </li>
             <br />
