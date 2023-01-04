@@ -31,7 +31,21 @@ function projects() {
         <h2>Projects</h2>
         <br />
         <div className="project-list">
-          <Fade bottom>
+
+        <Fade  bottom>
+            <a target='_blank'  href="https://github.com/bhandarii7/PCOS-DETECT">
+              <Project
+                heading={"PCOS-DETECT"}
+                desc={
+                  "Application that uses Deep Learning model to detect PCOS using ultrasound images of ovaries."
+                }
+                date={'1 Dec 2022'}
+                lang={['Deep Learning','Python','Tensorflow']}
+              />
+            </a>
+          </Fade>
+
+          <Fade delay={200} bottom>
             <a target='_blank' href="https://github.com/bhandarii7/epistle-client">
               <Project
                 heading={"EPISTLE"}
@@ -44,7 +58,7 @@ function projects() {
             </a>
           </Fade>
 
-          <Fade delay={500} bottom>
+          <Fade delay={400} bottom>
             <a target='_blank' href="https://github.com/bhandarii7/spotify-clone">
               <Project
                 heading={"UNIFIED-ID"}
@@ -57,7 +71,7 @@ function projects() {
             </a>
           </Fade>
 
-          <Fade delay={1000} bottom>
+          <Fade delay={600} bottom>
             <a target='_blank'  href="https://github.com/bhandarii7/Weather-app">
               <Project
                 heading={"Weather App"}
@@ -69,7 +83,6 @@ function projects() {
               />
             </a>
           </Fade>
-
 
         </div>
       </aside>

@@ -17,7 +17,7 @@ function Header() {
         <Link to={"/projects"}>
           <button>Projects</button>
         </Link>
-        <a download='Resume' href={resume}>
+        <a download='Yash_Resume' href={resume}>
         <button  className="resume" >Resume</button>
         </a>
       </div>

@@ -1,9 +1,21 @@
+
 .Project{
     width: 38rem;
    text-align: left;
     background-color: #191b1f;
     padding: 0.5rem;
     border-radius: 5px;
+}
+
+.Project:hover{
+    /* width: 39rem; */
+    background-color: #DF2029;
+    transition: 0.5s all ease;
+}
+
+.Project:hover .languages i{
+    border: 1px solid white;
+    transition: 0.5s all ease;
 }
 
 h3{

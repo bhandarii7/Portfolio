@@ -9,7 +9,7 @@ function Home() {
       <Fade duration={1500} left>
         <p className="basic-info">
           <h1 className="title">
-            Hey! I am Yash, <br />I'm a <span>Web Developer!</span> 
+            Hey! I am Yash, <br />I'm a <span> Software Developer! 🚀 </span> 
           </h1>
           <br />
           <ul className="detailed-info">

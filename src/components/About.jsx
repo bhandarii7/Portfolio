@@ -20,8 +20,7 @@ function About() {
             <p>
 
             I've worked with wide variety of programming languages & frameworks
-            but my area of expertise are <span className="accent" >Front-end development, React.JS &
-            JavaScript!</span> 
+            although <br /> my area of expertise is Full-stack development & JavaScript!
             </p>
           </li>
           <br />
@@ -56,11 +55,10 @@ function About() {
           <li>
             <p>
 
-            When I am not coding, I like to spend my time playing guitar or
-            brainstorming ideas with friends.
+            Qualified Publicis Sapient Jumpstart'22.
             </p>
           </li>
-          <li></li>
+          <br />
         </ul>
       </section>
       </Fade>
